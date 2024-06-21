@@ -9,7 +9,7 @@ Connect your receivers "SUMD" pin to the GPIO Pin 10 of your Raspberry 5.
 (Check the pinout for other versions). Connect the "+" to Pin 1 and the GND
 to Pin 6. 
 
-> Make sure that your receiver runs at 3.3v as the pins of the Raspberry PI may not survive anything higher!
+> :warning: **Make sure that your receiver runs at 3.3v as the pins of the Raspberry PI may not survive anything higher!**
 
 ## TX Setup
 
