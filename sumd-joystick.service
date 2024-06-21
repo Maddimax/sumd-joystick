@@ -1,0 +1,11 @@
+[Unit]
+Description=SUMD Joystick script
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/bin/bash /home/mtillmanns/sumd-joystick/launch.sh
+WorkingDirectory=/home/mtillmanns/sumd-joystick/
+[Install]
+WantedBy=multi-user.target
