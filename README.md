@@ -59,3 +59,23 @@ You can check if its working via
 ```bash
 journalctl -fu sumd-joystick
 ```
+
+## Testing on the command line
+
+Once the service is up and running, you can install the `joystick` package to test on the terminal
+
+```bash
+sudo apt install joystick
+```
+
+To calibrate run
+
+```bash
+jscal -c /dev/input/js0
+```
+
+To view the result run
+
+```bash
+jstest /dev/input/js0
+```
